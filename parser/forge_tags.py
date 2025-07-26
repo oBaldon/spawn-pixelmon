@@ -2,7 +2,7 @@ import os
 import json
 from bs4 import BeautifulSoup
 
-def forge_tags(html_path="data/worldgenbiome.html"):
+def forge_tags(html_path):
     # Criar pasta de log se necessário
     log_dir = "log"
     os.makedirs(log_dir, exist_ok=True)
