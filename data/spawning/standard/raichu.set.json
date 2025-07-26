@@ -1,0 +1,109 @@
+{
+  "id": "Raichu",
+  "spawnInfos": [
+    {
+      "spec": "species:Raichu",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/all_forests"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "weathers": [
+              "STORM"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.5
+    },
+    {
+      "spec": "species:Raichu",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "AFTERNOON"
+        ],
+        "biomes": [
+          "pixelmon:ultra_forest"
+        ]
+      },
+      "rarity": 10.0
+    },
+    {
+      "spec": "species:Raichu form:alolan",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "MORNING"
+        ],
+        "biomes": [
+          "minecraft:stony_shore",
+          "biomesoplenty:gravel_beach",
+		  "biomeswevegone:basalt_barrera",
+          "biomeswevegone:dacite_shore",
+          "terralith:gravel_beach"
+        ]
+      },
+      "rarityMultipliers": [
+        {
+          "multiplier": 1.5,
+          "condition": {
+            "weathers": [
+              "STORM"
+            ]
+          }
+        }
+      ],
+      "rarity": 0.1
+    },
+    {
+      "spec": "species:Raichu form:alolan palette:summer",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 25,
+      "maxLevel": 50,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DUSK"
+        ],
+        "weathers": [
+          "CLEAR"
+        ],
+        "biomes": [
+          "minecraft:stony_shore",
+          "biomesoplenty:gravel_beach",
+		  "biomeswevegone:basalt_barrera",
+          "biomeswevegone:dacite_shore",
+          "terralith:gravel_beach"
+        ]
+      },
+      "rarity": 0.05
+    }
+  ]
+}

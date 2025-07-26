@@ -1,0 +1,25 @@
+{
+  "id": "Pawmi",
+  "spawnInfos": [
+    {
+      "spec": "species:Pawmi",
+      "stringLocationTypes": [
+        "Land"
+      ],
+      "minLevel": 2,
+      "maxLevel": 18,
+      "typeID": "pokemon",
+      "condition": {
+        "times": [
+          "DAWN",
+          "DAY"
+        ],
+        "biomes": [
+          "#pixelmon:spawning/redwoods",
+          "#pixelmon:spawning/taigas"
+        ]
+      },
+      "rarity": 150.0
+    }
+  ]
+}
