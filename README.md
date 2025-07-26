@@ -45,8 +45,10 @@ source venv/bin/activate  # or .\venv\Scripts\activate on Windows
 
 ### 3. Install dependencies
 
+Make sure to extract the `data.zip` file into the project root so the `data/` folder is created properly.
 ```bash
 pip install -r requirements.txt
+unzip data.zip -d .
 ```
 
 ### 4. Run the parser
@@ -82,6 +84,18 @@ Run the tool and search for "Larvitar" in the generated `pokemon_spawn_table.csv
 ## 🤝 Contributing
 
 Pull requests are welcome! If you'd like to improve biome handling, tag expansions, or performance, feel free to open an issue or PR.
+
+### Suggested Improvements
+
+Here are a few ideas to help improve the project:
+
+- 📦 **Refactor File and Class Names**: Ensure file and class names follow consistent naming conventions and better reflect their responsibilities (e.g., rename `final_tags.py` to something more descriptive like `tag_merger.py`).
+- 🧪 **Add Tests**: Implement automated tests for core functions such as tag expansion, biome parsing, and spawn merging to ensure correctness.
+- 📝 **Log Review**: Improve or expand logging to help debug biome mismatches and verify that the final spawn table is complete and accurate.
+- 📊 **Validate Final Table Output**: Add validation logic to check for missing or duplicated Pokémon entries in the final spawn table.
+- 📁 **Folder Structure**: Consider organizing the `parser` folder into submodules (e.g., `loaders/`, `transformers/`, `exporters/`) for better modularity.
+
+Feel free to suggest additional features, improvements, or bug fixes via Issues or PRs.
 
 ## 📄 License
 
