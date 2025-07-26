@@ -19,10 +19,10 @@ spawn-pixelmon/
 ├── data/
 │   ├── biomes/             # Pixelmon biome tag files
 │   ├── mcbiomes/           # Vanilla/Minecraft biome group definitions
-│   └── spawning/           # Raw Pokémon spawn files
+│   ├── spawning/           # Raw Pokémon spawn files
+│   └── worldgenbiome.html  # HTML from Forge containing tag mappings
 ├── log/                    # Intermediate outputs (tag maps, expansions, etc.)
 ├── parser/                 # All parsing and data processing modules
-├── worldgenbiome.html      # HTML from Forge containing tag mappings
 ├── main.py                 # Entry point for the full pipeline
 └── pokemon_spawn_table.csv # Final output table
 ```
@@ -61,6 +61,7 @@ Output files will be saved as:
 
 - 🧾 `log/final_tag_map.json` → Expanded biome mapping
 - 🧬 `log/final_data.json` → Pokémon spawns with resolved biomes
+- 📦 `log/spawns.json` → JSON of all spawn rules
 - 📊 `pokemon_spawn_table.csv` → Table of all spawn rules
 
 ## 🛠 Technologies Used
